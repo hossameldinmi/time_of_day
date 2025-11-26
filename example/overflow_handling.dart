@@ -31,7 +31,7 @@ void main() {
   print('=== Overnight Shift Example ===');
   final shiftStart = TimeOfDay(hour: 22, minute: 0); // 10 PM
   final shiftDuration = Duration(hours: 8);
-  
+
   final shiftEnd = shiftStart.add(shiftDuration, TimeAddOption.startNewDay);
   print('Shift starts: ${shiftStart.hourOfPeriod}:00 ${shiftStart.period == DayPeriod.am ? "AM" : "PM"}');
   print('Shift ends: ${shiftEnd.hourOfPeriod}:00 ${shiftEnd.period == DayPeriod.am ? "AM" : "PM"}');
