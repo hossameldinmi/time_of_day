@@ -41,7 +41,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  time_of_day: ^1.0.1
+  time_of_day: ^1.0.2
 ```
 
 Then run:
@@ -270,6 +270,16 @@ times.sort(); // [time1, time2, time3] (implements Comparable)
 - `microseconds` - Microseconds within a millisecond (0-999)
 
 ## Examples
+
+For more comprehensive examples, see the [example](example/) directory:
+
+- **[basic_usage.dart](example/basic_usage.dart)** - Introduction to core features
+- **[overflow_handling.dart](example/overflow_handling.dart)** - All three TimeAddOption modes explained
+- **[time_sequences.dart](example/time_sequences.dart)** - Generating time schedules and sequences
+- **[practical_examples.dart](example/practical_examples.dart)** - Real-world use cases
+- **[duration_extensions.dart](example/duration_extensions.dart)** - Working with duration extensions
+
+Run any example with: `dart run example/<filename>.dart`
 
 ### Scheduling System
 
