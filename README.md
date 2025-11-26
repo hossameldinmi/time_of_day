@@ -41,7 +41,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  time_of_day: ^1.0.0
+  time_of_day: ^1.0.1
 ```
 
 Then run:
