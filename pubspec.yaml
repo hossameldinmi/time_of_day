@@ -1,7 +1,7 @@
 name: time_of_day
 version: 1.0.0
 
-description: A type-safe Dart package for representing and manipulating time of
+description: Type-safe Dart package for representing and manipulating time of
   day values with microsecond precision, supporting AM/PM periods, time
   comparisons, and safe arithmetic operations.
 
