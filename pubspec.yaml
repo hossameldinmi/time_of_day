@@ -1,0 +1,30 @@
+name: time_of_day
+version: 1.0.0
+
+description: A type-safe Dart package for representing and manipulating time of
+  day values with microsecond precision, supporting AM/PM periods, time
+  comparisons, and safe arithmetic operations.
+
+repository: https://github.com/hossameldinmi/time_of_day
+homepage: https://github.com/hossameldinmi/time_of_day
+
+topics:
+  - time-of-day
+  - time
+  - datetime
+  - day
+  - calendar
+
+screenshots:
+  - description: The time_of_day package logo.
+    path: assets/icon.png
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  clock: ^1.1.2
+  equatable: ^2.0.7
+
+dev_dependencies:
+  test: ^1.26.3
